@@ -84,8 +84,8 @@ In this lab, I'll demonstrate how to strengthen governance across an Azure envir
 1. Navigate to your resource group > under the ‘**Settings**’ blade select ‘**Locks’**.
 2. Click ‘**Add**’, then give the lock a name and assign it the ‘**Delete**’ lock type.
     
-    > The ‘**delete**’ lock type prevents the deletion of a resource.
-    > 
+    > The ‘**delete**’ lock type prevents the deletion of a resource and the '**read-ony**' lock prevents modification.
+    >
 3. Click ‘**OK**’ to create the lock.
 4. In the ‘**Overview**’ blade, click ‘**Delete** **Resource** **Group**’. 
 5. In the new window, enter the resource group name and click ‘**Delete**’.
@@ -103,7 +103,7 @@ In this lab, I'll demonstrate how to strengthen governance across an Azure envir
 3. You can assign policies at different scopes, such as the Management Group, Subscription, Resource Group, and Resource.
 4. You can either use Microsoft’s existing policies or create your own.
 5. The remediation task is used to bring the existing resources into compliance.
-6. A managed identity is required for the remediation task to modify resource tags.
+6. A managed identity is required for the remediation task to modify resource tags on your behalf.
 7. Locks can be used to prevent accidental deletions and override user permissions.
 
 Microsoft's Wite-up: https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md
