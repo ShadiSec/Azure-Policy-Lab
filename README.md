@@ -64,7 +64,7 @@ In this lab, I'll demonstrate how to strengthen governance across an Azure envir
     > 
 9. In the ‘**Managed** **Identity**’ tab, the setting ‘**Create** **a** **Managed** **Identity**’ should be enabled by default.
     
-    > A managed identity is required with the contributor permissions so that resource tags can be modified.
+    > A managed identity is required with the contributor permissions so that resource tags can be modified by Azure on your behalf.
     > 
 10. Click on ‘**Review** **+** **Create**’ and create the assignment.
 
@@ -84,7 +84,7 @@ In this lab, I'll demonstrate how to strengthen governance across an Azure envir
 1. Navigate to your resource group > under the ‘**Settings**’ blade select ‘**Locks’**.
 2. Click ‘**Add**’, then give the lock a name and assign it the ‘**Delete**’ lock type.
     
-    > The ‘**delete**’ lock type prevents the deletion of a resource and the '**read-ony**' lock prevents modification.
+    > The ‘**delete**’ lock type prevents the deletion of a resource, and the '**read-only**' lock prevents modification.
     >
 3. Click ‘**OK**’ to create the lock.
 4. In the ‘**Overview**’ blade, click ‘**Delete** **Resource** **Group**’. 
