@@ -2,7 +2,7 @@
 
 # Overview
 
-In this lab, you’ll learn how to strengthen governance across an Azure environment by working with Azure Policy. You’ll practice creating and assigning policies to enforce organizational standards, apply and manage resource tags for better organization and cost visibility, and configure resource locks to protect assets from accidental changes or deletion.
+In this lab, I'll demonstrate how to strengthen governance across an Azure environment by working with Azure Policy. I'll create and assign policies to enforce organizational standards, apply and manage resource tags for better organization and cost visibility, and configure resource locks to protect assets from accidental changes or deletion.
 
 # Create Resource Group
 
