@@ -105,3 +105,5 @@ In this lab, you’ll learn how to strengthen governance across an Azure environ
 5. The remediation task is used to bring the existing resources into compliance.
 6. A managed identity is required for the remediation task to modify resource tags.
 7. Locks can be used to prevent accidental deletions and override user permissions.
+
+Microsoft's Wite-up: https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md
